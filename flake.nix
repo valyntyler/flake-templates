@@ -6,5 +6,9 @@
   };
 
   outputs = { ... }: {
+    templates.rust = {
+      description = "A basic Rust develompent shell";
+      path = ./rust;
+    };
   };
 }
