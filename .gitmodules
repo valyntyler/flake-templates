@@ -1,3 +1,6 @@
 [submodule "rust"]
 	path = rust
 	url = https://github.com/valyntyler/flake-rust
+[submodule "web"]
+	path = web
+	url = https://github.com/valyntyler/flake-web

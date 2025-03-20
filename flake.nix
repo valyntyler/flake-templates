@@ -10,5 +10,10 @@
       description = "A basic Rust develompent shell";
       path = ./rust;
     };
+
+    templates.web = {
+      description = "A simple template for quickly creating websites";
+      path = ./web;
+    };
   };
 }
