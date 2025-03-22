@@ -6,6 +6,11 @@
   };
 
   outputs = { ... }: {
+    templates.empty = {
+      description = "An empty nix devshell";
+      path = ./empty;
+    };
+
     templates.rust = {
       description = "A basic Rust develompent shell";
       path = ./rust;
