@@ -7,3 +7,6 @@
 [submodule "empty"]
 	path = empty
 	url = https://github.com/valyntyler/flake-empty
+[submodule "cpp"]
+	path = cpp
+	url = https://github.com/valyntyler/flake-cpp

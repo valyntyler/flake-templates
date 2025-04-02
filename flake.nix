@@ -6,6 +6,11 @@
   };
 
   outputs = { ... }: {
+    templates.cpp = {
+      description = "Flake-powered C++ Hello, world!";
+      path = ./cpp;
+    };
+
     templates.empty = {
       description = "An empty nix devshell";
       path = ./empty;
