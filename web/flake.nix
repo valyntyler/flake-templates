@@ -1,6 +1,4 @@
 {
-  description = "A simple template for quickly creating websites";
-
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 

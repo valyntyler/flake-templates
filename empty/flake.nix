@@ -1,6 +1,4 @@
 {
-  description = "An empty nix devshell";
-
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 

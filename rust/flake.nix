@@ -1,6 +1,4 @@
 {
-  description = "A basic Rust develompent shell";
-
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 
