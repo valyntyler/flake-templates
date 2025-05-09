@@ -16,6 +16,11 @@
       path = ./empty;
     };
 
+    templates.go = {
+      description = "GO! fast flake template";
+      path = ./go;
+    };
+
     templates.rust = {
       description = "A basic Rust develompent shell";
       path = ./rust;
