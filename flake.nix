@@ -5,7 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
-  outputs = { ... }: {
+  outputs = {...}: {
     templates.cpp = {
       description = "Flake-powered C++ Hello, world!";
       path = ./cpp;
