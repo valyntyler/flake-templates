@@ -21,6 +21,11 @@
       path = ./go;
     };
 
+    templates.php = {
+      description = "Declarative Personal Home Page";
+      path = ./php;
+    };
+
     templates.rust = {
       description = "A basic Rust develompent shell";
       path = ./rust;
