@@ -11,6 +11,11 @@
       path = ./cpp;
     };
 
+    templates.csharp = {
+      description = "Start a CLI app with .NET Core";
+      path = ./csharp;
+    };
+
     templates.empty = {
       description = "An empty nix devshell";
       path = ./empty;
