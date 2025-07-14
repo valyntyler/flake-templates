@@ -26,6 +26,11 @@
       path = ./go;
     };
 
+    templates.nu = {
+      description = "Shell scripting where everything is structured data";
+      path = ./nu;
+    };
+
     templates.php = {
       description = "Declarative Personal Home Page";
       path = ./php;
