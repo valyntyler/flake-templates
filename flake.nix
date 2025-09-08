@@ -36,6 +36,11 @@
       path = ./php;
     };
 
+    templates.python = {
+      description = "Start a Python project with a bit less pain";
+      path = ./python;
+    };
+
     templates.rust = {
       description = "A basic Rust develompent shell";
       path = ./rust;
