@@ -11,6 +11,11 @@
       path = ./default;
     };
 
+    templates.maximal = {
+      description = "An nix flake with an empty devshell and an example package";
+      path = ./default;
+    };
+
     templates.cpp = {
       description = "Flake-powered C++ Hello, world!";
       path = ./cpp;
