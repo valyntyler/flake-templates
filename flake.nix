@@ -13,7 +13,7 @@
 
     templates.maximal = {
       description = "An nix flake with an empty devshell and an example package";
-      path = ./default;
+      path = ./maximal;
     };
 
     templates.cpp = {
